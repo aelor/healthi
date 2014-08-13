@@ -1,28 +1,16 @@
-== README
+== STEPS FOR INSTALLATION
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+$ bundle install
 
-Things you may want to cover:
+For creating and migrating the database you would like to do 
 
-* Ruby version
+$ rake db:create
+$ rake db:migrate
 
-* System dependencies
+You also need to edit the IP in the file application.js to the IP of the server where the application will be hosted
 
-* Configuration
+$ var dispatcher = new WebSocketRails('192.xxx.xx.xxx:3000/websocket');
 
-* Database creation
+Start the applcation using 
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+$ rails s
