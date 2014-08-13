@@ -1,0 +1,318 @@
+# Logfile created on 2014-08-12 23:00:20 +0530 by logger.rb/44203
+I [2014-08-12 23:00:20.468] [[32mConnectionManager[0m] Connection opened: #<Connection::abf559defb6f338ad097>
+I [2014-08-12 23:00:20.475] [[32mChannel[0m] #<Connection::abf559defb6f338ad097> subscribed to channel posts
+I [2014-08-12 23:00:20.475] [[32mChannel[0m] sending token
+I [2014-08-12 23:00:35.280] [[32mChannel[0m] #<Connection::abf559defb6f338ad097> unsubscribed from channel posts
+I [2014-08-12 23:00:35.283] [[32mConnectionManager[0m] Connection closed: #<Connection::abf559defb6f338ad097>
+I [2014-08-12 23:00:35.105] [[32mChannel[0m] [posts] #<Post id: 3, content: "Hola a post has been posted again", string: nil, user_id: nil, created_at: "2014-08-12 17:30:35", updated_at: "2014-08-12 17:30:35">
+I [2014-08-12 23:00:35.546] [[32mConnectionManager[0m] Connection opened: #<Connection::4077ddad9095144a5bb7>
+I [2014-08-12 23:00:35.553] [[32mChannel[0m] #<Connection::4077ddad9095144a5bb7> subscribed to channel posts
+I [2014-08-12 23:00:35.553] [[32mChannel[0m] sending token
+I [2014-08-12 23:02:47.214] [[32mChannel[0m] [posts] #<Post id: 4, content: "Hello world this is post done from another computer...", string: nil, user_id: nil, created_at: "2014-08-12 17:32:47", updated_at: "2014-08-12 17:32:47">
+I [2014-08-12 23:04:08.538] [[32mChannel[0m] #<Connection::4077ddad9095144a5bb7> unsubscribed from channel posts
+I [2014-08-12 23:04:08.541] [[32mConnectionManager[0m] Connection closed: #<Connection::4077ddad9095144a5bb7>
+I [2014-08-12 23:04:08.366] [[32mConnectionManager[0m] Connection opened: #<Connection::fe251a33a91d55989969>
+I [2014-08-12 23:04:08.372] [[32mChannel[0m] #<Connection::fe251a33a91d55989969> subscribed to channel posts
+I [2014-08-12 23:04:08.372] [[32mChannel[0m] sending token
+I [2014-08-12 23:04:34.100] [[32mChannel[0m] #<Connection::fe251a33a91d55989969> unsubscribed from channel posts
+I [2014-08-12 23:04:34.100] [[32mConnectionManager[0m] Connection closed: #<Connection::fe251a33a91d55989969>
+I [2014-08-12 23:04:34.194] [[32mChannel[0m] [posts] #<Post id: 5, content: "Another try to see if it shows up on my system", string: nil, user_id: nil, created_at: "2014-08-12 17:34:34", updated_at: "2014-08-12 17:34:34">
+I [2014-08-12 23:04:34.633] [[32mConnectionManager[0m] Connection opened: #<Connection::264deb06bb42952f4483>
+I [2014-08-12 23:04:34.651] [[32mChannel[0m] #<Connection::264deb06bb42952f4483> subscribed to channel posts
+I [2014-08-12 23:04:34.651] [[32mChannel[0m] sending token
+I [2014-08-12 23:05:22.769] [[32mChannel[0m] #<Connection::264deb06bb42952f4483> unsubscribed from channel posts
+I [2014-08-12 23:05:22.769] [[32mConnectionManager[0m] Connection closed: #<Connection::264deb06bb42952f4483>
+I [2014-08-12 23:05:22.854] [[32mChannel[0m] [posts] #<Post id: 6, content: "Trying again as I can see some error", string: nil, user_id: nil, created_at: "2014-08-12 17:35:22", updated_at: "2014-08-12 17:35:22">
+I [2014-08-12 23:05:23.282] [[32mConnectionManager[0m] Connection opened: #<Connection::0fcd4300aceb1960df0a>
+I [2014-08-12 23:05:23.288] [[32mChannel[0m] #<Connection::0fcd4300aceb1960df0a> subscribed to channel posts
+I [2014-08-12 23:05:23.289] [[32mChannel[0m] sending token
+I [2014-08-12 23:07:31.801] [[32mChannel[0m] #<Connection::0fcd4300aceb1960df0a> unsubscribed from channel posts
+I [2014-08-12 23:07:31.802] [[32mConnectionManager[0m] Connection closed: #<Connection::0fcd4300aceb1960df0a>
+I [2014-08-12 23:07:31.896] [[32mChannel[0m] [posts] #<Post id: 7, content: "That was pretty weird in firefox testing with chrom...", string: nil, user_id: nil, created_at: "2014-08-12 17:37:31", updated_at: "2014-08-12 17:37:31">
+I [2014-08-12 23:07:32.456] [[32mConnectionManager[0m] Connection opened: #<Connection::d6f68453b338f500f58c>
+I [2014-08-12 23:07:32.475] [[32mChannel[0m] #<Connection::d6f68453b338f500f58c> subscribed to channel posts
+I [2014-08-12 23:07:32.475] [[32mChannel[0m] sending token
+I [2014-08-12 23:08:45.909] [[32mChannel[0m] #<Connection::d6f68453b338f500f58c> unsubscribed from channel posts
+I [2014-08-12 23:08:45.909] [[32mConnectionManager[0m] Connection closed: #<Connection::d6f68453b338f500f58c>
+I [2014-08-12 23:08:51.564] [[32mConnectionManager[0m] Connection opened: #<Connection::8ebe96df7e3d30556546>
+I [2014-08-12 23:08:51.580] [[32mChannel[0m] #<Connection::8ebe96df7e3d30556546> subscribed to channel posts
+I [2014-08-12 23:08:51.581] [[32mChannel[0m] sending token
+I [2014-08-12 23:09:01.201] [[32mChannel[0m] [posts] #<Post id: 8, content: "testing from here", string: nil, user_id: nil, created_at: "2014-08-12 17:39:01", updated_at: "2014-08-12 17:39:01">
+I [2014-08-12 23:09:08.994] [[32mChannel[0m] #<Connection::8ebe96df7e3d30556546> unsubscribed from channel posts
+I [2014-08-12 23:09:08.995] [[32mConnectionManager[0m] Connection closed: #<Connection::8ebe96df7e3d30556546>
+I [2014-08-12 23:09:09.337] [[32mConnectionManager[0m] Connection opened: #<Connection::f7034afddda4bbc270fd>
+I [2014-08-12 23:09:09.343] [[32mChannel[0m] #<Connection::f7034afddda4bbc270fd> subscribed to channel posts
+I [2014-08-12 23:09:09.344] [[32mChannel[0m] sending token
+I [2014-08-12 23:09:25.408] [[32mChannel[0m] #<Connection::f7034afddda4bbc270fd> unsubscribed from channel posts
+I [2014-08-12 23:09:25.408] [[32mConnectionManager[0m] Connection closed: #<Connection::f7034afddda4bbc270fd>
+I [2014-08-12 23:09:25.483] [[32mChannel[0m] [posts] #<Post id: 9, content: "Trying from firefox to chrome", string: nil, user_id: nil, created_at: "2014-08-12 17:39:25", updated_at: "2014-08-12 17:39:25">
+I [2014-08-12 23:09:25.923] [[32mConnectionManager[0m] Connection opened: #<Connection::b6ea15451bc57fe813b6>
+I [2014-08-12 23:09:25.930] [[32mChannel[0m] #<Connection::b6ea15451bc57fe813b6> subscribed to channel posts
+I [2014-08-12 23:09:25.930] [[32mChannel[0m] sending token
+I [2014-08-12 23:12:41.513] [[32mChannel[0m] #<Connection::b6ea15451bc57fe813b6> unsubscribed from channel posts
+I [2014-08-12 23:12:41.513] [[32mConnectionManager[0m] Connection closed: #<Connection::b6ea15451bc57fe813b6>
+I [2014-08-12 23:12:46.924] [[32mConnectionManager[0m] Connection opened: #<Connection::356f1151a9a47b3ce43b>
+I [2014-08-12 23:12:46.935] [[32mChannel[0m] #<Connection::356f1151a9a47b3ce43b> subscribed to channel posts
+I [2014-08-12 23:12:46.936] [[32mChannel[0m] sending token
+I [2014-08-12 23:12:52.297] [[32mConnectionManager[0m] Connection opened: #<Connection::413fab52918160004c8f>
+I [2014-08-12 23:12:52.320] [[32mChannel[0m] #<Connection::413fab52918160004c8f> subscribed to channel posts
+I [2014-08-12 23:12:52.321] [[32mChannel[0m] sending token
+I [2014-08-12 23:13:36.310] [[32mChannel[0m] #<Connection::413fab52918160004c8f> unsubscribed from channel posts
+I [2014-08-12 23:13:36.310] [[32mConnectionManager[0m] Connection closed: #<Connection::413fab52918160004c8f>
+I [2014-08-12 23:13:36.385] [[32mChannel[0m] [posts] #<Post id: 10, content: "Okay lets create another post ", string: nil, user_id: nil, created_at: "2014-08-12 17:43:36", updated_at: "2014-08-12 17:43:36">
+I [2014-08-12 23:13:36.815] [[32mConnectionManager[0m] Connection opened: #<Connection::b06327621d041953dcf0>
+I [2014-08-12 23:13:36.821] [[32mChannel[0m] #<Connection::b06327621d041953dcf0> subscribed to channel posts
+I [2014-08-12 23:13:36.821] [[32mChannel[0m] sending token
+I [2014-08-12 23:13:43.541] [[32mChannel[0m] #<Connection::356f1151a9a47b3ce43b> unsubscribed from channel posts
+I [2014-08-12 23:13:43.541] [[32mConnectionManager[0m] Connection closed: #<Connection::356f1151a9a47b3ce43b>
+I [2014-08-12 23:13:43.921] [[32mConnectionManager[0m] Connection opened: #<Connection::43d31f0fdfba1f029efa>
+I [2014-08-12 23:13:43.931] [[32mChannel[0m] #<Connection::43d31f0fdfba1f029efa> subscribed to channel posts
+I [2014-08-12 23:13:43.931] [[32mChannel[0m] sending token
+I [2014-08-12 23:24:56.367] [[32mChannel[0m] #<Connection::b06327621d041953dcf0> unsubscribed from channel posts
+I [2014-08-12 23:24:56.367] [[32mConnectionManager[0m] Connection closed: #<Connection::b06327621d041953dcf0>
+I [2014-08-12 23:25:01.579] [[32mChannel[0m] #<Connection::43d31f0fdfba1f029efa> unsubscribed from channel posts
+I [2014-08-12 23:25:01.579] [[32mConnectionManager[0m] Connection closed: #<Connection::43d31f0fdfba1f029efa>
+I [2014-08-13 10:52:10.781] [[32mConnectionManager[0m] Connection opened: #<Connection::99b54014d13bf0090ba8>
+I [2014-08-13 10:52:10.795] [[32mChannel[0m] #<Connection::99b54014d13bf0090ba8> subscribed to channel posts
+I [2014-08-13 10:52:10.795] [[32mChannel[0m] sending token
+I [2014-08-13 10:52:15.443] [[32mConnectionManager[0m] Connection opened: #<Connection::007486d58f3cdf1b9057>
+I [2014-08-13 10:52:15.445] [[32mChannel[0m] #<Connection::007486d58f3cdf1b9057> subscribed to channel posts
+I [2014-08-13 10:52:15.445] [[32mChannel[0m] sending token
+I [2014-08-13 10:52:40.910] [[32mChannel[0m] #<Connection::99b54014d13bf0090ba8> unsubscribed from channel posts
+I [2014-08-13 10:52:40.910] [[32mConnectionManager[0m] Connection closed: #<Connection::99b54014d13bf0090ba8>
+I [2014-08-13 10:52:41.205] [[32mChannel[0m] [posts] #<Post id: 11, content: "Hello world this is a new post", string: nil, user_id: nil, created_at: "2014-08-13 05:22:40", updated_at: "2014-08-13 05:22:40">
+I [2014-08-13 10:52:41.332] [[32mConnectionManager[0m] Connection opened: #<Connection::017aa0d6109369d31031>
+I [2014-08-13 10:52:41.334] [[32mChannel[0m] #<Connection::017aa0d6109369d31031> subscribed to channel posts
+I [2014-08-13 10:52:41.334] [[32mChannel[0m] sending token
+I [2014-08-13 10:53:44.319] [[32mChannel[0m] #<Connection::007486d58f3cdf1b9057> unsubscribed from channel posts
+I [2014-08-13 10:53:44.319] [[32mConnectionManager[0m] Connection closed: #<Connection::007486d58f3cdf1b9057>
+I [2014-08-13 11:54:48.581] [[32mChannel[0m] #<Connection::017aa0d6109369d31031> unsubscribed from channel posts
+I [2014-08-13 11:54:48.582] [[32mConnectionManager[0m] Connection closed: #<Connection::017aa0d6109369d31031>
+I [2014-08-13 11:57:56.689] [[32mConnectionManager[0m] Connection opened: #<Connection::6713488fdfe23dddbf53>
+I [2014-08-13 11:57:56.691] [[32mChannel[0m] #<Connection::6713488fdfe23dddbf53> subscribed to channel posts
+I [2014-08-13 11:57:56.691] [[32mChannel[0m] sending token
+I [2014-08-13 11:58:06.532] [[32mConnectionManager[0m] Connection opened: #<Connection::cab69b5e43ce43fc2bcb>
+I [2014-08-13 11:58:06.535] [[32mChannel[0m] #<Connection::cab69b5e43ce43fc2bcb> subscribed to channel posts
+I [2014-08-13 11:58:06.535] [[32mChannel[0m] sending token
+I [2014-08-13 11:58:49.701] [[32mChannel[0m] #<Connection::6713488fdfe23dddbf53> unsubscribed from channel posts
+I [2014-08-13 11:58:49.701] [[32mConnectionManager[0m] Connection closed: #<Connection::6713488fdfe23dddbf53>
+I [2014-08-13 11:58:49.775] [[32mChannel[0m] [posts] #<Post id: 12, content: "This is a new post test", string: nil, user_id: nil, created_at: "2014-08-13 06:28:49", updated_at: "2014-08-13 06:28:49">
+I [2014-08-13 11:58:49.910] [[32mConnectionManager[0m] Connection opened: #<Connection::92fde5c886e657d2fffc>
+I [2014-08-13 11:58:49.912] [[32mChannel[0m] #<Connection::92fde5c886e657d2fffc> subscribed to channel posts
+I [2014-08-13 11:58:49.912] [[32mChannel[0m] sending token
+I [2014-08-13 12:00:07.105] [[32mChannel[0m] #<Connection::cab69b5e43ce43fc2bcb> unsubscribed from channel posts
+I [2014-08-13 12:00:07.105] [[32mConnectionManager[0m] Connection closed: #<Connection::cab69b5e43ce43fc2bcb>
+I [2014-08-13 12:00:17.239] [[32mChannel[0m] #<Connection::92fde5c886e657d2fffc> unsubscribed from channel posts
+I [2014-08-13 12:00:17.240] [[32mConnectionManager[0m] Connection closed: #<Connection::92fde5c886e657d2fffc>
+I [2014-08-13 18:48:32.150] [[32mConnectionManager[0m] Connection opened: #<Connection::37dd871b2fe963a3e8f6>
+I [2014-08-13 18:48:32.341] [[32mChannel[0m] #<Connection::37dd871b2fe963a3e8f6> subscribed to channel posts
+I [2014-08-13 18:48:32.345] [[32mChannel[0m] sending token
+I [2014-08-13 18:48:53.290] [[32mConnectionManager[0m] Connection opened: #<Connection::6c67a2dd294071dd653b>
+I [2014-08-13 18:48:53.293] [[32mChannel[0m] #<Connection::6c67a2dd294071dd653b> subscribed to channel posts
+I [2014-08-13 18:48:53.294] [[32mChannel[0m] sending token
+I [2014-08-13 18:50:09.972] [[32mChannel[0m] #<Connection::37dd871b2fe963a3e8f6> unsubscribed from channel posts
+I [2014-08-13 18:50:09.973] [[32mConnectionManager[0m] Connection closed: #<Connection::37dd871b2fe963a3e8f6>
+I [2014-08-13 18:50:10.780] [[32mChannel[0m] [posts] #<Post id: 13, content: "Testing testing pretty awesome ", string: nil, user_id: nil, created_at: "2014-08-13 13:20:10", updated_at: "2014-08-13 13:20:10">
+I [2014-08-13 18:50:10.322] [[32mConnectionManager[0m] Connection opened: #<Connection::bbe20b1550373797ec2b>
+I [2014-08-13 18:50:10.328] [[32mChannel[0m] #<Connection::bbe20b1550373797ec2b> subscribed to channel posts
+I [2014-08-13 18:50:10.328] [[32mChannel[0m] sending token
+I [2014-08-13 18:50:19.854] [[32mChannel[0m] #<Connection::6c67a2dd294071dd653b> unsubscribed from channel posts
+I [2014-08-13 18:50:19.854] [[32mConnectionManager[0m] Connection closed: #<Connection::6c67a2dd294071dd653b>
+I [2014-08-13 18:50:20.528] [[32mConnectionManager[0m] Connection opened: #<Connection::b4e68adb4060d1786fa7>
+I [2014-08-13 18:50:20.562] [[32mChannel[0m] #<Connection::b4e68adb4060d1786fa7> subscribed to channel posts
+I [2014-08-13 18:50:20.564] [[32mChannel[0m] sending token
+I [2014-08-13 19:06:27.678] [[32mChannel[0m] #<Connection::bbe20b1550373797ec2b> unsubscribed from channel posts
+I [2014-08-13 19:06:27.679] [[32mConnectionManager[0m] Connection closed: #<Connection::bbe20b1550373797ec2b>
+I [2014-08-13 19:06:27.680] [[32mChannel[0m] #<Connection::b4e68adb4060d1786fa7> unsubscribed from channel posts
+I [2014-08-13 19:06:27.680] [[32mConnectionManager[0m] Connection closed: #<Connection::b4e68adb4060d1786fa7>
+I [2014-08-13 19:06:41.890] [[32mConnectionManager[0m] Connection opened: #<Connection::b5bbd6572d7db3fc8d8c>
+I [2014-08-13 19:06:41.895] [[32mChannel[0m] #<Connection::b5bbd6572d7db3fc8d8c> subscribed to channel posts
+I [2014-08-13 19:06:41.896] [[32mChannel[0m] sending token
+I [2014-08-13 19:07:05.115] [[32mConnectionManager[0m] Connection opened: #<Connection::d62a3bffa5c09791ed7f>
+I [2014-08-13 19:07:05.120] [[32mChannel[0m] #<Connection::d62a3bffa5c09791ed7f> subscribed to channel posts
+I [2014-08-13 19:07:05.120] [[32mChannel[0m] sending token
+I [2014-08-13 19:07:15.545] [[32mChannel[0m] #<Connection::b5bbd6572d7db3fc8d8c> unsubscribed from channel posts
+I [2014-08-13 19:07:15.545] [[32mConnectionManager[0m] Connection closed: #<Connection::b5bbd6572d7db3fc8d8c>
+I [2014-08-13 19:07:15.626] [[32mChannel[0m] [posts] #<Post id: 14, content: "hello post", string: nil, user_id: nil, created_at: "2014-08-13 13:37:15", updated_at: "2014-08-13 13:37:15">
+I [2014-08-13 19:07:15.897] [[32mConnectionManager[0m] Connection opened: #<Connection::6ea6ad4e34f9ed324f89>
+I [2014-08-13 19:07:15.900] [[32mChannel[0m] #<Connection::6ea6ad4e34f9ed324f89> subscribed to channel posts
+I [2014-08-13 19:07:15.900] [[32mChannel[0m] sending token
+I [2014-08-13 19:08:50.279] [[32mChannel[0m] #<Connection::6ea6ad4e34f9ed324f89> unsubscribed from channel posts
+I [2014-08-13 19:08:50.279] [[32mConnectionManager[0m] Connection closed: #<Connection::6ea6ad4e34f9ed324f89>
+I [2014-08-13 19:16:59.388] [[32mConnectionManager[0m] Connection opened: #<Connection::7b72bcd904074459284c>
+I [2014-08-13 19:16:59.406] [[32mChannel[0m] #<Connection::7b72bcd904074459284c> subscribed to channel posts
+I [2014-08-13 19:16:59.406] [[32mChannel[0m] sending token
+I [2014-08-13 19:17:14.475] [[32mChannel[0m] #<Connection::7b72bcd904074459284c> unsubscribed from channel posts
+I [2014-08-13 19:17:14.475] [[32mConnectionManager[0m] Connection closed: #<Connection::7b72bcd904074459284c>
+I [2014-08-13 19:17:15.902] [[32mConnectionManager[0m] Connection opened: #<Connection::c185675ca18815593abe>
+I [2014-08-13 19:17:15.107] [[32mChannel[0m] #<Connection::c185675ca18815593abe> subscribed to channel posts
+I [2014-08-13 19:17:15.107] [[32mChannel[0m] sending token
+I [2014-08-13 19:17:19.299] [[32mChannel[0m] #<Connection::c185675ca18815593abe> unsubscribed from channel posts
+I [2014-08-13 19:17:19.302] [[32mConnectionManager[0m] Connection closed: #<Connection::c185675ca18815593abe>
+I [2014-08-13 19:18:30.607] [[32mConnectionManager[0m] Connection opened: #<Connection::414031f63d1aa424cfbb>
+I [2014-08-13 19:18:30.628] [[32mChannel[0m] #<Connection::414031f63d1aa424cfbb> subscribed to channel posts
+I [2014-08-13 19:18:30.628] [[32mChannel[0m] sending token
+I [2014-08-13 19:19:00.690] [[32mChannel[0m] #<Connection::414031f63d1aa424cfbb> unsubscribed from channel posts
+I [2014-08-13 19:19:00.690] [[32mConnectionManager[0m] Connection closed: #<Connection::414031f63d1aa424cfbb>
+I [2014-08-13 19:22:20.928] [[32mConnectionManager[0m] Connection opened: #<Connection::8eb695ea6261c7c8d228>
+I [2014-08-13 19:22:20.935] [[32mChannel[0m] #<Connection::8eb695ea6261c7c8d228> subscribed to channel posts
+I [2014-08-13 19:22:20.935] [[32mChannel[0m] sending token
+I [2014-08-13 19:22:37.149] [[32mChannel[0m] #<Connection::8eb695ea6261c7c8d228> unsubscribed from channel posts
+I [2014-08-13 19:22:37.149] [[32mConnectionManager[0m] Connection closed: #<Connection::8eb695ea6261c7c8d228>
+I [2014-08-13 19:23:12.456] [[32mConnectionManager[0m] Connection opened: #<Connection::e3ae9cda02cc2ca461fd>
+I [2014-08-13 19:23:12.461] [[32mChannel[0m] #<Connection::e3ae9cda02cc2ca461fd> subscribed to channel posts
+I [2014-08-13 19:23:12.461] [[32mChannel[0m] sending token
+I [2014-08-13 19:23:26.348] [[32mChannel[0m] #<Connection::e3ae9cda02cc2ca461fd> unsubscribed from channel posts
+I [2014-08-13 19:23:26.348] [[32mConnectionManager[0m] Connection closed: #<Connection::e3ae9cda02cc2ca461fd>
+I [2014-08-13 19:23:31.792] [[32mConnectionManager[0m] Connection opened: #<Connection::e49735ab80e9f1ebd499>
+I [2014-08-13 19:23:31.799] [[32mChannel[0m] #<Connection::e49735ab80e9f1ebd499> subscribed to channel posts
+I [2014-08-13 19:23:31.800] [[32mChannel[0m] sending token
+I [2014-08-13 19:34:10.639] [[32mChannel[0m] #<Connection::d62a3bffa5c09791ed7f> unsubscribed from channel posts
+I [2014-08-13 19:34:10.640] [[32mConnectionManager[0m] Connection closed: #<Connection::d62a3bffa5c09791ed7f>
+I [2014-08-13 19:34:10.726] [[32mChannel[0m] [posts] #<Post id: 15, content: "Helllo vishnu this is  anew post", string: nil, user_id: nil, created_at: "2014-08-13 14:04:10", updated_at: "2014-08-13 14:04:10">
+I [2014-08-13 19:34:11.256] [[32mConnectionManager[0m] Connection opened: #<Connection::9ab1ba2faa3e2dbd6ae4>
+I [2014-08-13 19:34:11.306] [[32mChannel[0m] #<Connection::9ab1ba2faa3e2dbd6ae4> subscribed to channel posts
+I [2014-08-13 19:34:11.308] [[32mChannel[0m] sending token
+I [2014-08-13 19:42:41.679] [[32mChannel[0m] #<Connection::e49735ab80e9f1ebd499> unsubscribed from channel posts
+I [2014-08-13 19:42:41.679] [[32mConnectionManager[0m] Connection closed: #<Connection::e49735ab80e9f1ebd499>
+I [2014-08-13 19:42:42.129] [[32mConnectionManager[0m] Connection opened: #<Connection::9c34b91a20f8b91a331b>
+I [2014-08-13 19:42:42.104] [[32mChannel[0m] #<Connection::9c34b91a20f8b91a331b> subscribed to channel posts
+I [2014-08-13 19:42:42.107] [[32mChannel[0m] sending token
+I [2014-08-13 19:42:50.849] [[32mChannel[0m] #<Connection::9ab1ba2faa3e2dbd6ae4> unsubscribed from channel posts
+I [2014-08-13 19:42:50.849] [[32mConnectionManager[0m] Connection closed: #<Connection::9ab1ba2faa3e2dbd6ae4>
+I [2014-08-13 19:42:55.306] [[32mChannel[0m] [sessions] #<User id: 3, name: nil, password_salt: "$2a$10$dpeFf.2PbmMeUI7u9w76cu", email: "qa@kreatio.com", password_hash: "$2a$10$dpeFf.2PbmMeUI7u9w76cu8T9GVFYwJM3c/rhW1h5Bvn...", created_at: "2014-08-13 13:53:12", updated_at: "2014-08-13 13:53:12">
+I [2014-08-13 19:42:55.555] [[32mConnectionManager[0m] Connection opened: #<Connection::48f11ce243b06c6a4a18>
+I [2014-08-13 19:42:55.562] [[32mChannel[0m] #<Connection::48f11ce243b06c6a4a18> subscribed to channel posts
+I [2014-08-13 19:42:55.563] [[32mChannel[0m] sending token
+I [2014-08-13 19:43:07.400] [[32mChannel[0m] #<Connection::9c34b91a20f8b91a331b> unsubscribed from channel posts
+I [2014-08-13 19:43:07.401] [[32mConnectionManager[0m] Connection closed: #<Connection::9c34b91a20f8b91a331b>
+I [2014-08-13 19:43:07.675] [[32mConnectionManager[0m] Connection opened: #<Connection::94494599d4cdd6dc5a50>
+I [2014-08-13 19:43:07.678] [[32mChannel[0m] #<Connection::94494599d4cdd6dc5a50> subscribed to channel posts
+I [2014-08-13 19:43:07.679] [[32mChannel[0m] sending token
+I [2014-08-13 19:43:11.903] [[32mChannel[0m] #<Connection::94494599d4cdd6dc5a50> unsubscribed from channel posts
+I [2014-08-13 19:43:11.904] [[32mConnectionManager[0m] Connection closed: #<Connection::94494599d4cdd6dc5a50>
+I [2014-08-13 19:43:12.141] [[32mConnectionManager[0m] Connection opened: #<Connection::b8f43cdd61372b81d72a>
+I [2014-08-13 19:43:12.145] [[32mChannel[0m] #<Connection::b8f43cdd61372b81d72a> subscribed to channel posts
+I [2014-08-13 19:43:12.145] [[32mChannel[0m] sending token
+I [2014-08-13 19:43:15.881] [[32mChannel[0m] #<Connection::48f11ce243b06c6a4a18> unsubscribed from channel posts
+I [2014-08-13 19:43:15.885] [[32mConnectionManager[0m] Connection closed: #<Connection::48f11ce243b06c6a4a18>
+I [2014-08-13 19:43:15.271] [[32mConnectionManager[0m] Connection opened: #<Connection::e97ed2288891a82df209>
+I [2014-08-13 19:43:15.278] [[32mChannel[0m] #<Connection::e97ed2288891a82df209> subscribed to channel posts
+I [2014-08-13 19:43:15.278] [[32mChannel[0m] sending token
+I [2014-08-13 19:43:17.811] [[32mChannel[0m] #<Connection::b8f43cdd61372b81d72a> unsubscribed from channel posts
+I [2014-08-13 19:43:17.851] [[32mConnectionManager[0m] Connection closed: #<Connection::b8f43cdd61372b81d72a>
+I [2014-08-13 19:43:17.188] [[32mConnectionManager[0m] Connection opened: #<Connection::8efe32ea8b17e7acb544>
+I [2014-08-13 19:43:17.195] [[32mChannel[0m] #<Connection::8efe32ea8b17e7acb544> subscribed to channel posts
+I [2014-08-13 19:43:17.195] [[32mChannel[0m] sending token
+I [2014-08-13 19:43:17.944] [[32mChannel[0m] #<Connection::e97ed2288891a82df209> unsubscribed from channel posts
+I [2014-08-13 19:43:17.944] [[32mConnectionManager[0m] Connection closed: #<Connection::e97ed2288891a82df209>
+I [2014-08-13 19:43:18.124] [[32mConnectionManager[0m] Connection opened: #<Connection::670c34acc1cab1e3d91f>
+I [2014-08-13 19:43:18.131] [[32mChannel[0m] #<Connection::670c34acc1cab1e3d91f> subscribed to channel posts
+I [2014-08-13 19:43:18.131] [[32mChannel[0m] sending token
+I [2014-08-13 19:43:27.410] [[32mChannel[0m] #<Connection::670c34acc1cab1e3d91f> unsubscribed from channel posts
+I [2014-08-13 19:43:27.410] [[32mConnectionManager[0m] Connection closed: #<Connection::670c34acc1cab1e3d91f>
+I [2014-08-13 19:43:27.512] [[32mChannel[0m] [sessions] #<User id: 3, name: nil, password_salt: "$2a$10$dpeFf.2PbmMeUI7u9w76cu", email: "qa@kreatio.com", password_hash: "$2a$10$dpeFf.2PbmMeUI7u9w76cu8T9GVFYwJM3c/rhW1h5Bvn...", created_at: "2014-08-13 13:53:12", updated_at: "2014-08-13 13:53:12">
+I [2014-08-13 19:43:27.813] [[32mConnectionManager[0m] Connection opened: #<Connection::46697f14410991dde979>
+I [2014-08-13 19:43:27.822] [[32mChannel[0m] #<Connection::46697f14410991dde979> subscribed to channel posts
+I [2014-08-13 19:43:27.822] [[32mChannel[0m] sending token
+I [2014-08-13 19:43:31.322] [[32mChannel[0m] #<Connection::46697f14410991dde979> unsubscribed from channel posts
+I [2014-08-13 19:43:31.326] [[32mConnectionManager[0m] Connection closed: #<Connection::46697f14410991dde979>
+I [2014-08-13 19:43:31.206] [[32mConnectionManager[0m] Connection opened: #<Connection::43754200795e8ffe3f1e>
+I [2014-08-13 19:43:31.212] [[32mChannel[0m] #<Connection::43754200795e8ffe3f1e> subscribed to channel posts
+I [2014-08-13 19:43:31.212] [[32mChannel[0m] sending token
+I [2014-08-13 19:43:53.784] [[32mChannel[0m] #<Connection::8efe32ea8b17e7acb544> unsubscribed from channel posts
+I [2014-08-13 19:43:53.784] [[32mConnectionManager[0m] Connection closed: #<Connection::8efe32ea8b17e7acb544>
+I [2014-08-13 19:43:54.158] [[32mConnectionManager[0m] Connection opened: #<Connection::1cc47ad4e98554f575d1>
+I [2014-08-13 19:43:54.162] [[32mChannel[0m] #<Connection::1cc47ad4e98554f575d1> subscribed to channel posts
+I [2014-08-13 19:43:54.162] [[32mChannel[0m] sending token
+I [2014-08-13 19:43:54.647] [[32mChannel[0m] #<Connection::43754200795e8ffe3f1e> unsubscribed from channel posts
+I [2014-08-13 19:43:54.647] [[32mConnectionManager[0m] Connection closed: #<Connection::43754200795e8ffe3f1e>
+I [2014-08-13 19:43:54.836] [[32mConnectionManager[0m] Connection opened: #<Connection::a17bc746fee519f4a9a6>
+I [2014-08-13 19:43:54.841] [[32mChannel[0m] #<Connection::a17bc746fee519f4a9a6> subscribed to channel posts
+I [2014-08-13 19:43:54.842] [[32mChannel[0m] sending token
+I [2014-08-13 19:44:01.609] [[32mChannel[0m] #<Connection::a17bc746fee519f4a9a6> unsubscribed from channel posts
+I [2014-08-13 19:44:01.609] [[32mConnectionManager[0m] Connection closed: #<Connection::a17bc746fee519f4a9a6>
+I [2014-08-13 19:44:01.745] [[32mChannel[0m] [posts] #<User id: 3, name: nil, password_salt: "$2a$10$dpeFf.2PbmMeUI7u9w76cu", email: "qa@kreatio.com", password_hash: "$2a$10$dpeFf.2PbmMeUI7u9w76cu8T9GVFYwJM3c/rhW1h5Bvn...", created_at: "2014-08-13 13:53:12", updated_at: "2014-08-13 13:53:12">
+I [2014-08-13 19:44:01.973] [[32mConnectionManager[0m] Connection opened: #<Connection::05653dc42c2438a6bf52>
+I [2014-08-13 19:44:01.978] [[32mChannel[0m] #<Connection::05653dc42c2438a6bf52> subscribed to channel posts
+I [2014-08-13 19:44:01.978] [[32mChannel[0m] sending token
+I [2014-08-13 19:44:07.688] [[32mChannel[0m] #<Connection::05653dc42c2438a6bf52> unsubscribed from channel posts
+I [2014-08-13 19:44:07.688] [[32mConnectionManager[0m] Connection closed: #<Connection::05653dc42c2438a6bf52>
+I [2014-08-13 19:44:07.889] [[32mConnectionManager[0m] Connection opened: #<Connection::3c2e3a316fa6cbcdcc83>
+I [2014-08-13 19:44:07.895] [[32mChannel[0m] #<Connection::3c2e3a316fa6cbcdcc83> subscribed to channel posts
+I [2014-08-13 19:44:07.896] [[32mChannel[0m] sending token
+I [2014-08-13 19:44:11.135] [[32mChannel[0m] #<Connection::1cc47ad4e98554f575d1> unsubscribed from channel posts
+I [2014-08-13 19:44:11.136] [[32mConnectionManager[0m] Connection closed: #<Connection::1cc47ad4e98554f575d1>
+I [2014-08-13 19:44:11.493] [[32mConnectionManager[0m] Connection opened: #<Connection::d6361ddfe488603d34ca>
+I [2014-08-13 19:44:11.499] [[32mChannel[0m] #<Connection::d6361ddfe488603d34ca> subscribed to channel posts
+I [2014-08-13 19:44:11.499] [[32mChannel[0m] sending token
+I [2014-08-13 19:44:45.853] [[32mChannel[0m] #<Connection::3c2e3a316fa6cbcdcc83> unsubscribed from channel posts
+I [2014-08-13 19:44:45.853] [[32mConnectionManager[0m] Connection closed: #<Connection::3c2e3a316fa6cbcdcc83>
+I [2014-08-13 19:44:46.232] [[32mConnectionManager[0m] Connection opened: #<Connection::2a086be2112076fad1f7>
+I [2014-08-13 19:44:46.236] [[32mChannel[0m] #<Connection::2a086be2112076fad1f7> subscribed to channel posts
+I [2014-08-13 19:44:46.237] [[32mChannel[0m] sending token
+I [2014-08-13 19:44:47.831] [[32mChannel[0m] #<Connection::2a086be2112076fad1f7> unsubscribed from channel posts
+I [2014-08-13 19:44:47.832] [[32mConnectionManager[0m] Connection closed: #<Connection::2a086be2112076fad1f7>
+I [2014-08-13 19:44:48.647] [[32mConnectionManager[0m] Connection opened: #<Connection::7a383ee38e801de72b8e>
+I [2014-08-13 19:44:48.112] [[32mChannel[0m] #<Connection::7a383ee38e801de72b8e> subscribed to channel posts
+I [2014-08-13 19:44:48.115] [[32mChannel[0m] sending token
+I [2014-08-13 19:44:49.743] [[32mChannel[0m] #<Connection::d6361ddfe488603d34ca> unsubscribed from channel posts
+I [2014-08-13 19:44:49.744] [[32mConnectionManager[0m] Connection closed: #<Connection::d6361ddfe488603d34ca>
+I [2014-08-13 19:44:49.938] [[32mConnectionManager[0m] Connection opened: #<Connection::ad9c2ce23990878450d3>
+I [2014-08-13 19:44:49.942] [[32mChannel[0m] #<Connection::ad9c2ce23990878450d3> subscribed to channel posts
+I [2014-08-13 19:44:49.942] [[32mChannel[0m] sending token
+I [2014-08-13 19:44:57.756] [[32mChannel[0m] #<Connection::7a383ee38e801de72b8e> unsubscribed from channel posts
+I [2014-08-13 19:44:57.756] [[32mConnectionManager[0m] Connection closed: #<Connection::7a383ee38e801de72b8e>
+I [2014-08-13 19:44:57.869] [[32mChannel[0m] [posts] #<User id: 3, name: nil, password_salt: "$2a$10$dpeFf.2PbmMeUI7u9w76cu", email: "qa@kreatio.com", password_hash: "$2a$10$dpeFf.2PbmMeUI7u9w76cu8T9GVFYwJM3c/rhW1h5Bvn...", created_at: "2014-08-13 13:53:12", updated_at: "2014-08-13 13:53:12">
+I [2014-08-13 19:44:58.122] [[32mConnectionManager[0m] Connection opened: #<Connection::d2d66a6c72b7b5b3b310>
+I [2014-08-13 19:44:58.127] [[32mChannel[0m] #<Connection::d2d66a6c72b7b5b3b310> subscribed to channel posts
+I [2014-08-13 19:44:58.127] [[32mChannel[0m] sending token
+I [2014-08-13 19:45:02.156] [[32mChannel[0m] #<Connection::ad9c2ce23990878450d3> unsubscribed from channel posts
+I [2014-08-13 19:45:02.160] [[32mConnectionManager[0m] Connection closed: #<Connection::ad9c2ce23990878450d3>
+I [2014-08-13 19:45:02.224] [[32mConnectionManager[0m] Connection opened: #<Connection::dc69e9e878476d1e2dd9>
+I [2014-08-13 19:45:02.228] [[32mChannel[0m] #<Connection::dc69e9e878476d1e2dd9> subscribed to channel posts
+I [2014-08-13 19:45:02.228] [[32mChannel[0m] sending token
+I [2014-08-13 19:45:45.334] [[32mChannel[0m] #<Connection::d2d66a6c72b7b5b3b310> unsubscribed from channel posts
+I [2014-08-13 19:45:45.334] [[32mConnectionManager[0m] Connection closed: #<Connection::d2d66a6c72b7b5b3b310>
+I [2014-08-13 19:45:45.537] [[32mConnectionManager[0m] Connection opened: #<Connection::909301004dd23c94f767>
+I [2014-08-13 19:45:45.542] [[32mChannel[0m] #<Connection::909301004dd23c94f767> subscribed to channel posts
+I [2014-08-13 19:45:45.542] [[32mChannel[0m] sending token
+I [2014-08-13 19:45:48.222] [[32mChannel[0m] #<Connection::dc69e9e878476d1e2dd9> unsubscribed from channel posts
+I [2014-08-13 19:45:48.223] [[32mConnectionManager[0m] Connection closed: #<Connection::dc69e9e878476d1e2dd9>
+I [2014-08-13 19:45:48.427] [[32mConnectionManager[0m] Connection opened: #<Connection::186e44ce06f470094c4d>
+I [2014-08-13 19:45:48.433] [[32mChannel[0m] #<Connection::186e44ce06f470094c4d> subscribed to channel posts
+I [2014-08-13 19:45:48.433] [[32mChannel[0m] sending token
+I [2014-08-13 19:45:49.867] [[32mChannel[0m] #<Connection::186e44ce06f470094c4d> unsubscribed from channel posts
+I [2014-08-13 19:45:49.869] [[32mConnectionManager[0m] Connection closed: #<Connection::186e44ce06f470094c4d>
+I [2014-08-13 19:45:49.288] [[32mConnectionManager[0m] Connection opened: #<Connection::f0086651b607d0920f8a>
+I [2014-08-13 19:45:49.292] [[32mChannel[0m] #<Connection::f0086651b607d0920f8a> subscribed to channel posts
+I [2014-08-13 19:45:49.292] [[32mChannel[0m] sending token
+I [2014-08-13 19:45:49.567] [[32mChannel[0m] #<Connection::909301004dd23c94f767> unsubscribed from channel posts
+I [2014-08-13 19:45:49.567] [[32mConnectionManager[0m] Connection closed: #<Connection::909301004dd23c94f767>
+I [2014-08-13 19:45:49.752] [[32mConnectionManager[0m] Connection opened: #<Connection::53c646e92b1617e4c038>
+I [2014-08-13 19:45:49.757] [[32mChannel[0m] #<Connection::53c646e92b1617e4c038> subscribed to channel posts
+I [2014-08-13 19:45:49.757] [[32mChannel[0m] sending token
+I [2014-08-13 19:46:04.416] [[32mConnectionManager[0m] Connection opened: #<Connection::99afc68ac3f60d9978dd>
+I [2014-08-13 19:46:04.424] [[32mChannel[0m] #<Connection::99afc68ac3f60d9978dd> subscribed to channel posts
+I [2014-08-13 19:46:04.425] [[32mChannel[0m] sending token
+I [2014-08-13 19:46:22.680] [[32mChannel[0m] #<Connection::99afc68ac3f60d9978dd> unsubscribed from channel posts
+I [2014-08-13 19:46:22.680] [[32mConnectionManager[0m] Connection closed: #<Connection::99afc68ac3f60d9978dd>
+I [2014-08-13 19:46:22.808] [[32mChannel[0m] [posts] #<User id: 4, name: nil, password_salt: "$2a$10$fR5WLxaHjJUE6eG2pwp8dO", email: "nitesh@kreatio.com", password_hash: "$2a$10$fR5WLxaHjJUE6eG2pwp8dOw8GIQBdy/cjewwWF4PTX11...", created_at: "2014-08-13 14:14:45", updated_at: "2014-08-13 14:14:45">
+I [2014-08-13 19:46:23.193] [[32mConnectionManager[0m] Connection opened: #<Connection::0e97a19233457e40d4ca>
+I [2014-08-13 19:46:23.199] [[32mChannel[0m] #<Connection::0e97a19233457e40d4ca> subscribed to channel posts
+I [2014-08-13 19:46:23.199] [[32mChannel[0m] sending token
+I [2014-08-13 19:46:30.638] [[32mChannel[0m] #<Connection::53c646e92b1617e4c038> unsubscribed from channel posts
+I [2014-08-13 19:46:30.639] [[32mConnectionManager[0m] Connection closed: #<Connection::53c646e92b1617e4c038>
+I [2014-08-13 19:46:30.845] [[32mConnectionManager[0m] Connection opened: #<Connection::110117fb93c7a3a7702b>
+I [2014-08-13 19:46:30.849] [[32mChannel[0m] #<Connection::110117fb93c7a3a7702b> subscribed to channel posts
+I [2014-08-13 19:46:30.849] [[32mChannel[0m] sending token
+I [2014-08-13 19:46:31.583] [[32mChannel[0m] #<Connection::f0086651b607d0920f8a> unsubscribed from channel posts
+I [2014-08-13 19:46:31.583] [[32mConnectionManager[0m] Connection closed: #<Connection::f0086651b607d0920f8a>
+I [2014-08-13 19:46:31.766] [[32mConnectionManager[0m] Connection opened: #<Connection::dfb99942de56eee3243f>
+I [2014-08-13 19:46:31.769] [[32mChannel[0m] #<Connection::dfb99942de56eee3243f> subscribed to channel posts
+I [2014-08-13 19:46:31.770] [[32mChannel[0m] sending token
+I [2014-08-13 19:53:35.438] [[32mChannel[0m] #<Connection::dfb99942de56eee3243f> unsubscribed from channel posts
+I [2014-08-13 19:53:35.439] [[32mConnectionManager[0m] Connection closed: #<Connection::dfb99942de56eee3243f>
+I [2014-08-13 19:53:37.512] [[32mConnectionManager[0m] Connection opened: #<Connection::c7b81807aa736a96a640>
+I [2014-08-13 19:53:37.530] [[32mChannel[0m] #<Connection::c7b81807aa736a96a640> subscribed to channel posts
+I [2014-08-13 19:53:37.530] [[32mChannel[0m] sending token
