@@ -44,5 +44,6 @@ gem 'bcrypt', '~> 3.1.7'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
 gem 'websocket-rails'
 gem 'twitter-bootstrap-rails'
