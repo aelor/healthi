@@ -1,0 +1,27 @@
+<h3>Latest news</h3>
+
+<% @posts.first(10).each do |d| %>
+    <div class="comments-body">
+      <ol class="commentlist">
+        <li id="comment-48769" class="comment even thread-even depth-1">
+          <div class="comment-body" id="div-comment-48769">
+            <div class="comment-author vcard">
+              <img width="75" height="75" class="avatar avatar-75 photo"
+                   src="http://1.gravatar.com/avatar/17369c2ef6cc91d47411525d16556227?s=75&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D75&amp;r=G"
+                   alt=""> <cite class="fn"><a class="url" rel="external nofollow"
+                                               href="http://www.rituraj.me">Rituraj</a></cite> <span
+            class="says">says:</span></div>
+
+            <div class="comment-meta commentmetadata">
+                <%= d.created_at.strftime("%B %d, %Y at %I:%M %P") %>
+            </div>
+            <p><%= d.content %></p>
+
+            <div class="reply">
+              <a href="#" class="comment-reply-link">Reply</a></div>
+          </div>
+        </li>
+        <!-- #comment-## -->
+      </ol>
+    </div>
+<% end %>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Healthi</title>
+  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div id="top_navbar" class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner" style="
+  ">
+    <div class="container" style="
+    ">
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="nav-collapse collapse">
+        <ul class="nav">
+          <li class="span7">
+            <form class="navbar-form form-search">
+              <div class="input-append">
+                <a class="brand" href="/">Healthi news</a>
+                <input class="span4 search-query" type="text" placeholder="Search...">
+                <button type="submit" class="btn">Search</button>
+              </div>
+            </form>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Notifications <span class="notif-surround"><span class="badge notif-background badge-important" id="notif_background">&nbsp;</span><span id="num_notif" style="bottom: 0px;">0<br>1<br>2<br>3<br></span></span><b class="caret"></b></a>
+            <ul class="dropdown-menu" id="notif_list_node">
+              <li class="nav-header">Unread Messages</li><li><table class="table-hover"><tbody><tr><td><img src="https://graph.facebook.com/100001420427448/picture"></td><td>New Testimonial <span> from </span> <strong>James Potter</strong></td></tr></tbody></table></li><li><table class="table-hover"><tbody><tr><td><img src="https://graph.facebook.com/100001420427448/picture"></td><td>New Testimonial <span> from </span> <strong>James Potter</strong></td></tr></tbody></table></li><li><table class="table-hover"><tbody><tr><td><img src="https://graph.facebook.com/100001420427448/picture"></td><td>New Testimonial <span> from </span> <strong>James Potter</strong></td></tr></tbody></table></li><li><table class="table-hover"><tbody><tr><td><img src="https://graph.facebook.com/100001420427448/picture"></td><td>New Testimonial <span> from </span> <strong>James Potter</strong></td></tr></tbody></table></li><li><table class="table-hover"><tbody><tr><td><img src="https://graph.facebook.com/100001420427448/picture"></td><td>New Testimonial <span> from </span> <strong>James Potter</strong></td></tr></tbody></table></li><li><table class="table-hover"><tbody><tr><td><img src="https://graph.facebook.com/100001420427448/picture"></td><td>New Testimonial <span> from </span> <strong>James Potter</strong></td></tr></tbody></table></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <% if current_user %>
+                <img class="img-rounded img-profile inline" src="https://m.ak.fbcdn.net/profile.ak/hprofile-ak-ash4/371739_100000191247312_1824268558_q.jpg">
+                <a href="#" class="dropdown-toggle profile-name" data-toggle="dropdown"><%= current_user.email.split("@")[0] %><b class="caret"></b></a>
+            <% else %>
+                <%= link_to "Sign up", sign_up_path, :class => "dropdown-toggle profile-name"%>|
+                <%= link_to "log in", log_in_path, :class => "dropdown-toggle profile-name" %>
+            <% end %>
+            <ul class="dropdown-menu">
+              <li><a href="#">Show all news</a></li>
+              <li><%= link_to "Create news post", new_post_path%></li>
+              <li class="divider"></li>
+              <li><%= link_to "Log out", log_out_path%></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <% flash.each do |type, message| %>
+      <div class="alert <%= bootstrap_class_for(type) %> fade in">
+        <button class="close" data-dismiss="alert">×</button>
+        <%= message %>
+      </div>
+  <% end %>
+  <div class="row">
+    <div class="span9"><%= yield %></div>
+    <div class="span3">
+      <h2>About Us</h2>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+</div>
+</body>
+</html>

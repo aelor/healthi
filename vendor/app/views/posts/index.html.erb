@@ -1,0 +1,9 @@
+<h3>List of posts</h3>
+
+<% @posts.each do |d| %>
+    <ul>
+      <li><%= d.content %></li>
+    </ul>
+<%end%>
+
+<%= link_to "Create another post", new_post_path%>
