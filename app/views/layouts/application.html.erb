@@ -29,9 +29,31 @@
             </form>
           </li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Notifications <span class="notif-surround"><span class="badge notif-background badge-important" id="notif_background">&nbsp;</span><span id="num_notif" style="bottom: 0px;">0<br>1<br>2<br>3<br></span></span><b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle notification-dd" data-toggle="dropdown">Notifications
+              <span class="notif-surround">
+                <span class="badge notif-background badge-important" id="notif_background">&nbsp;
+                </span>
+                <span id="num_notif" style="bottom: 0px;">
+                  <%if !current_user.blank?%>
+                    <%= current_user.not_seen ? current_user.not_seen.count : 0 %>
+                  <%else%>
+                    0
+                  <%end%>
+                </span>
+              </span>
+              <b class="caret"></b></a>
             <ul class="dropdown-menu" id="notif_list_node">
-              <li class="nav-header">Unread Messages</li><li><table class="table-hover"><tbody><tr><td><img src="https://graph.facebook.com/100001420427448/picture"></td><td>New Testimonial <span> from </span> <strong>James Potter</strong></td></tr></tbody></table></li><li><table class="table-hover"><tbody><tr><td><img src="https://graph.facebook.com/100001420427448/picture"></td><td>New Testimonial <span> from </span> <strong>James Potter</strong></td></tr></tbody></table></li><li><table class="table-hover"><tbody><tr><td><img src="https://graph.facebook.com/100001420427448/picture"></td><td>New Testimonial <span> from </span> <strong>James Potter</strong></td></tr></tbody></table></li><li><table class="table-hover"><tbody><tr><td><img src="https://graph.facebook.com/100001420427448/picture"></td><td>New Testimonial <span> from </span> <strong>James Potter</strong></td></tr></tbody></table></li><li><table class="table-hover"><tbody><tr><td><img src="https://graph.facebook.com/100001420427448/picture"></td><td>New Testimonial <span> from </span> <strong>James Potter</strong></td></tr></tbody></table></li><li><table class="table-hover"><tbody><tr><td><img src="https://graph.facebook.com/100001420427448/picture"></td><td>New Testimonial <span> from </span> <strong>James Potter</strong></td></tr></tbody></table></li>
+              <li class="nav-header">Unread News</li>
+              <li>
+                <table class="table-hover">
+                  <tbody>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td>Nothing new to see here</td>
+                  </tr>
+                  </tbody>
+                </table>
+              </li>
             </ul>
           </li>
           <li class="dropdown">
@@ -72,6 +94,10 @@
       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </div>
   </div>
+</div>
+
+<div class="flasher">
+  Hello world
 </div>
 </body>
 </html>

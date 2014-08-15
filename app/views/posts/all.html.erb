@@ -1,8 +1,8 @@
-<h3>Latest news</h3>
+<h3>Full newsfeed</h3>
+
 <div class="comments-body">
   <ol class="commentlist">
-    <% @posts.order("created_at DESC").limit(10).each do |d| %>
-
+    <% Post.all.order("created_at DESC").each do |d| %>
         <li id="comment-48769" class="comment even thread-even depth-1">
           <div class="comment-body" id="div-comment-48769">
             <div class="comment-author vcard">

@@ -1,0 +1,13 @@
+<li class="nav-header">Unread News</li>
+<%@posts.each do |s|%>
+    <li>
+      <table class="table-hover">
+        <tbody>
+        <tr>
+          <td><img src="https://graph.facebook.com/100001420427448/picture"></td>
+          <td>New post <span> from </span> <strong><%= s.user.email.split("@")[0] %></strong><%= link_to " click to open", post_path(s, :notif => true)%></td>
+        </tr>
+        </tbody>
+      </table>
+    </li>
+<%end%>

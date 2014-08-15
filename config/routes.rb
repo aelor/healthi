@@ -11,7 +11,12 @@ Healthi::Application.routes.draw do
   resources :users
   resources :sessions
 
-  resources :posts
+  resources :posts do
+    get :all, :on => :collection
+    get :get_recent_posts, :on => :collection
+    post :update_not_seen, :on => :collection
+    resources :comments
+  end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

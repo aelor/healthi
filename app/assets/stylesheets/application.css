@@ -11,3 +11,15 @@
  *= require_self
  *= require_tree .
  */
+
+.flasher{
+    width: 250px;
+    height:50px;
+    background: #fcf59b;
+    position: fixed;
+    right: 8%;
+    bottom: 10%;
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+}
