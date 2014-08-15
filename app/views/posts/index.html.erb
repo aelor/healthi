@@ -20,6 +20,9 @@
                   <%= link_to "Comment", new_post_comment_path(d) %>
                   <!--<a href="#" class="comment-reply-link" data-postid="<%= d.id %>" data-userid="<%= current_user.id %>">Reply</a>-->
                 </div>
+                <%if current_user == d.user%>
+                  <%= button_to "delete", d, :method=>:delete %>
+                <%end%>
             <% end %>
             <% if d.comments.any? %>
                 <ol class="postcomments">

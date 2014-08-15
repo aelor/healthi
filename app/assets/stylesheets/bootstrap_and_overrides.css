@@ -6,11 +6,6 @@
   =require twitter-bootstrap-static/fontawesome
   */
 
-@import "twitter/bootstrap/bootstrap";
-
-
-@import "twitter/bootstrap/responsive";
-
 @import url('http://getbootstrap.com/2.3.2/assets/css/bootstrap.css');
 .img-profile{
     width:30px;
