@@ -53,4 +53,5 @@ group :development, :test do
   gem 'rspec'
   gem 'rspec-rails', '~> 3.0.0'
   gem 'factory_girl'
+  gem 'database_cleaner'
 end
