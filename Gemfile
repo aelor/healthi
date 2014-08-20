@@ -48,3 +48,9 @@ gem 'bcrypt', '~> 3.1.7'
 
 gem 'websocket-rails'
 gem 'twitter-bootstrap-rails'
+
+group :development, :test do
+  gem 'rspec'
+  gem 'rspec-rails', '~> 3.0.0'
+  gem 'factory_girl'
+end
