@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+  - 2.1.1
+env:
+  - DB=postgresql
+  - DB=postgresql
+  - DB=postgresql
+script:
+  - RAILS_ENV=test bundle exec rake --trace db:migrate test
+before_script:
+  - psql -c 'create database healthi_test' -U postgres
