@@ -1,0 +1,23 @@
+### Status
+[![Build Status](https://travis-ci.org/simkimsia/UtilityBehaviors.png)](https://travis-ci.org/simkimsia/UtilityBehaviors)
+
+== STEPS FOR INSTALLATION
+
+    $ bundle install
+
+For creating and migrating the database you would like to do 
+
+    $ rake db:create
+    $ rake db:migrate
+
+You will also need to edit the IP in the file ```application.js``` to the IP of the server where the application will be hosted
+
+    var dispatcher = new WebSocketRails('192.xxx.xx.xxx:3000/websocket');
+
+Start the applcation using 
+
+    $ rails s
+
+See if the tests are running fine.
+
+    $ rspec spec/
