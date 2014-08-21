@@ -1,6 +1,8 @@
 == STEPS FOR INSTALLATION
 
+```
 $ bundle install
+```
 
 For creating and migrating the database you would like to do 
 
